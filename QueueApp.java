@@ -11,8 +11,8 @@ public class QueueApp {
         names.offer("Jean-Bart"); //adding an element
         names.offer("Jean-Alexandre"); //adding an element
 
-        System.out.println(names.peek());
-        System.out.println(names.peek());
-        System.out.println(names.peek());
+        System.out.println(names.poll());
+        System.out.println(names.poll());
+        System.out.println(names.poll());
     }
 }
