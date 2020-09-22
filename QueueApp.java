@@ -14,5 +14,6 @@ public class QueueApp {
         System.out.println(names.poll());
         System.out.println(names.poll());
         System.out.println(names.poll());
+        System.out.println(names.poll());
     }
 }
